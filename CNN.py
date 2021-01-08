@@ -1,10 +1,10 @@
 import tensorflow as tf
 import pandas as pd
 from numpy import asarray, reshape
-import T2D_input
+import input
 import time
 from sklearn.datasets import make_blobs
-import ensembling_T2D
+import ensembling
 start_time = time.time()
 
 
@@ -50,14 +50,14 @@ def max_pool_n(x,maxp_k,maxp_str):
 
 ## Input file specific variables
 
-otuinfile = 'T2D_OTU.csv'
-metadata = 'T2D_metadata.txt'
+otuinfile = 'OTU_data_revised.csv'
+metadata = 'meta.csv'
 # Split 70% of data as training and 30% as test
 train_ratio = 0.7
 metavar = ['disease_stat','disease_status']  
 levels = ['Positive','Negative']
 # Read data
-data = T2D_input.data_metadata_T2D(otuinfile,metadata,train_ratio,metavar,levels)
+data = input.data_read(otuinfile,metadata,train_ratio,metavar,levels)
 train_dataset = data[0]
 test_input = data[1]
 test_output = data[2]
@@ -72,12 +72,12 @@ print(trainX.shape, testX.shape)
 # load all models
 n_members = 4
 
-acc_ens=ensembling_T2D.ensemble(trainX, testX, trainy, testy,n_members)
+acc_ens=ensembling.ensemble(trainX, testX, trainy, testy,n_members)
 
 # Data specific:
 # No. of features
 
-feature = 208
+feature = 534
 # No. of classification categories
 resp = 2
 
