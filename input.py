@@ -3,7 +3,7 @@ import pandas as pd
 import math
 
 
-def data_metadata_T2D(otuinfile,metadata,train_ratio,metavar,levels):
+def data_metadata(otuinfile,metadata,train_ratio,metavar,levels):
   """ Reads OTU table data and meta data and creates train/test dataset """
   a = pd.read_table(otuinfile,skiprows=1,index_col=0)
   #a = pd.read_table(otuinfile,skiprows=1,index_col=0).iloc[:, 0:]
