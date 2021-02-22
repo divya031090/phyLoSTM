@@ -1,0 +1,41 @@
+﻿Subject_ID,Gestational_status_at_collection,GestationalDayOfCollection,GestationalWeekOfCollection,GestationalDayOfDelivery,GestationalWeekOfDelivery,PretermBirth,Race,Ethnicity
+Subject_T1,pregnant,198,28.3,260,37.1,FALSE,American Indian,non-hispanic
+Subject_T10,pregnant,264,37.7,274,39.1,FALSE,Caucasian,hispanic
+Subject_T19,pregnant,188,26.9,279,39.9,FALSE,Asian-Japanese,non-hispanic
+Subject_T20,pregnant,119,17,279,39.9,FALSE,Caucasian,hispanic
+Subject_T27,pregnant,170,24.3,284,40.6,FALSE,Caucasian,hispanic
+Subject_T24,pregnant,215,30.7,281,40.1,FALSE,Caucasian,hispanic
+Subject_P5,pregnant,235,33.6,247,35.3,TRUE,American Indian,non-hispanic
+Subject_P4,pregnant,111,15.9,244,34.9,TRUE,Caucasian,hispanic
+Subject_M3,pregnant,144,20.6,258,36.9,TRUE,Asian-Unspecified,non-hispanic
+Subject_T4,pregnant,189,27,264,37.7,FALSE,Caucasian,hispanic
+Subject_T3,pregnant,166,23.7,263,37.6,FALSE,Pacific Islander,non-hispanic
+Subject_P7,pregnant,84,12,253,36.1,TRUE,American Indian,non-hispanic
+Subject_T5,pregnant,133,19,264,37.7,FALSE,Black,non-hispanic
+Subject_T25,pregnant,90,12.9,282,40.3,FALSE,Caucasian,hispanic
+Subject_T13,pregnant,95,13.6,276,39.4,FALSE,Caucasian,hispanic
+Subject_T17,pregnant,85,12.1,278,39.7,FALSE,Caucasian,hispanic
+Subject_T2,pregnant,78,11.1,262,37.4,FALSE,Caucasian,non-hispanic
+Subject_T6,pregnant,68,9.7,268,38.3,FALSE,Caucasian,hispanic
+Subject_M5,pregnant,87,12.4,259,37,FALSE,other,non-hispanic
+Subject_T11,pregnant,88,12.6,275,39.3,FALSE,Caucasian,non-hispanic
+Subject_P1,pregnant,78,11.1,151,21.6,TRUE,Pacific Islander,non-hispanic
+Subject_P2,pregnant,57,8.1,209,29.9,TRUE,Caucasian,hispanic
+Subject_T16,pregnant,82,11.7,277,39.6,FALSE,other,non-hispanic
+Subject_T7,pregnant,57,8.1,269,38.4,FALSE,Asian-Chinese,non-hispanic
+Subject_P6,pregnant,72,10.3,251,35.9,TRUE,Caucasian,non-hispanic
+Subject_T26,pregnant,66,9.4,283,40.4,FALSE,Caucasian,non-hispanic
+Subject_T8,pregnant,119,17,272,38.9,FALSE,Indian,non-hispanic
+Subject_T9,pregnant,67,9.6,273,39,FALSE,Caucasian,non-hispanic
+Subject_T18,pregnant,59,8.4,278,39.7,FALSE,Caucasian,non-hispanic
+Subject_T14,pregnant,85,12.1,276,39.4,FALSE,Caucasian,non-hispanic
+Subject_T15,pregnant,45,6.4,276,39.4,FALSE,other,non-hispanic
+Subject_T23,pregnant,78,11.1,280,40,FALSE,Caucasian,hispanic
+Subject_M2,pregnant,88,12.6,255,36.4,TRUE,other,non-hispanic
+Subject_M4,pregnant,1,0.1,258,36.9,TRUE,Caucasian,non-hispanic
+Subject_T28,pregnant,119,17,288,41.1,FALSE,Caucasian,hispanic
+Subject_T21,pregnant,80,11.4,279,39.9,FALSE,other,non-hispanic
+Subject_T22,pregnant,102,14.6,279,39.9,FALSE,Caucasian,non-hispanic
+Subject_M1,pregnant,169,24.1,254,36.3,TRUE,Pacific Islander,non-hispanic
+Subject_P3,pregnant,91,13,211,30.1,TRUE,Black,non-hispanic
+Subject_T12,pregnant,159,22.7,275,39.3,FALSE,other,0
