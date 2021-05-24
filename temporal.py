@@ -4,7 +4,7 @@ from keras.models import Sequential
 import pandas as pd
 import numpy as np
 
-input_file = 'input.csv'
+input_file = 'OTU_data_revised.csv'
 
 def load_data(test_split = 0.2):
     print ('Loading data...')
