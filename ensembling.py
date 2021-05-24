@@ -42,8 +42,8 @@ def load_all_models(n_models):
 	all_models = list()
 	for i in range(n_models):
 		# define filename for this ensemble
-		filename = 'CNN' + str(i + 1) + '_T2D'
-		file = 'model_' + str(i + 1) + '_T2D.h5'
+		filename = 'CNN' + str(i + 1) + '_allergy'
+		file = 'model_' + str(i + 1) + '_allergy.h5'
 		# load model from file
 		model = load_model(file)
 		# add to list of members
