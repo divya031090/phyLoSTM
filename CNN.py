@@ -210,7 +210,7 @@ df_test= df_test.append(df1)
 df_test.to_csv("b.csv",index=False)
 
 
-print("Accuracy_ensemble taxoNN:",ensemb_acc)
+
 
 
 
