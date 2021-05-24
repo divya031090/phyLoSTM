@@ -1,5 +1,3 @@
-def create_weighted_binary_crossentropy(zero_weight, one_weight):
-
     def weighted_binary_crossentropy(y_true, y_pred):
 
      
