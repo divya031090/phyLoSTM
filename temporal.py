@@ -33,7 +33,7 @@ def create_model(input_length):
     model.add(Dense(1, activation='sigmoid'))
 
     print ('Compiling...')
-    model.compile(loss='binary_crossentropy',
+    model.compile(loss='weighted_binary_crossentropy',
                   optimizer='rmsprop',
                   metrics=['accuracy'])
     return model
