@@ -6,7 +6,7 @@ import numpy as np
 
 input_file = 'OTU_data_revised.csv'
 
-def load_data(test_split = 0.2):
+def load_data(test_split = 0.3):
     print ('Loading data...')
     df = pd.read_csv(input_file)
     df['sequence'] = df['sequence'].apply(lambda x: [int(e) for e in x.split()])
